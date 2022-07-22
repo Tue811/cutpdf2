@@ -31,7 +31,6 @@
 .info{
     width: 50%;
     background-color: #E5AB55;
-    height: max-content;
 }
 
 .info1{
@@ -84,19 +83,21 @@
     color: #004353;
     font-family: 'Playfair Display', serif;
     font-size: 22px;
+    margin-bottom: 3%;
 }
 
 input{
-
+    display: block;
     padding-left: 3%;
     width: 298px;
     height: 40px;
     border-radius: 16px;
     border: none;
-    margin: 2% 22%;
+    margin: 0 auto;
 }
 
 button{
+    display: block;
     background-color: #E5AB55; 
     color: white; 
     border-radius: 16px; 
@@ -105,12 +106,11 @@ button{
     border: none; 
     font-size: 15px;
     box-shadow: 0px 4px 20px #C17607;
-    margin: 3% 35%;
+    margin: 0 auto;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 500;
     letter-spacing: 0.16em;
     text-transform: uppercase;
-    margin-bottom: 11%;
 }
 
 .image {
